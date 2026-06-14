@@ -1,0 +1,41 @@
+name: 💬 Feedback
+description: Share your thoughts, suggestions, or overall experience.
+title: "[Feedback]: "
+labels:
+  - feedback
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for sharing your feedback ❤️
+
+        We read every submission and genuinely appreciate hearing what people think.
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: What's on your mind?
+      description: Share your experience, thoughts, suggestions, praise, concerns, or anything else you'd like us to know.
+      placeholder: I wanted to share...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: sentiment
+    attributes:
+      label: Overall experience
+      options:
+        - 😊 Very positive
+        - 🙂 Mostly positive
+        - 😐 Neutral
+        - 🙁 Mostly negative
+        - 😞 Very negative
+    validations:
+      required: true
+
+  - type: textarea
+    id: improve
+    attributes:
+      label: Is there anything we could do better?
+      description: Optional
+      placeholder: One thing that would improve my experience is...
