@@ -1,0 +1,45 @@
+name: ✨ Feature Request
+description: Have an idea that could improve the experience?
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We'd love to hear your ideas 🚀
+
+        Whether it's a small improvement or a big feature, your suggestions help shape the future of the project.
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What's your idea?
+      description: Tell us what you'd like to see added or improved.
+      placeholder: I would love if...
+    validations:
+      required: true
+
+  - type: textarea
+    id: benefit
+    attributes:
+      label: How would this help you?
+      description: Explain why this feature would be useful.
+      placeholder: This would help because...
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: How do you handle this today?
+      description: If applicable, tell us what you're currently doing instead.
+      placeholder: Right now I...
+    validations:
+      required: false
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional details
+      description: Mockups, screenshots, examples, or anything else you'd like to include.
