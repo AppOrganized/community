@@ -1,6 +1,6 @@
 blank_issues_enabled: false
 
 contact_links:
-  - name: 📚 Community Guidelines
-    url: https://github.com/YOUR_ORG/community
+  - name: Community Guidelines
+    url: https://github.com/AppOrganized/community
     about: Please review our guidelines before creating an issue.
