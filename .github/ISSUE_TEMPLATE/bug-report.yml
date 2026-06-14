@@ -1,0 +1,60 @@
+name: 🐛 Bug Report
+description: Something isn't working as expected? Let us know!
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a problem ❤️
+
+        The more details you can provide, the easier it is for us to investigate and fix it.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Tell us what went wrong.
+      placeholder: I tried to...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+      description: Tell us what you thought would happen instead.
+      placeholder: I expected...
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we reproduce it?
+      description: Walk us through the steps that led to the problem.
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. See error...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does this happen?
+      options:
+        - Every time
+        - Sometimes
+        - Only happened once
+    validations:
+      required: true
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else you'd like to share?
+      description: Screenshots, recordings, error messages, or any additional details.
+      placeholder: Add anything that might help us understand the issue.
