@@ -1,13 +1,13 @@
-name: ✨ Feature Request
+name: Feature Request
 description: Have an idea that could improve the experience?
 title: "[Feature]: "
 labels:
-  - enhancement
+  - suggestion
 body:
   - type: markdown
     attributes:
       value: |
-        We'd love to hear your ideas 🚀
+        We'd love to hear your ideas
 
         Whether it's a small improvement or a big feature, your suggestions help shape the future of the project.
 
